@@ -48,7 +48,8 @@ public class Main {
             int[] event = eventGenerator();
             System.out.println(names[event[1]] + " " + event[3]);
             System.out.println(names[event[0]] + " +" + event[2]);
-            System.out.println("Вы согласны на обмен? если согласитесь (напишите 1), получите 1 очко решения, если откажетесь (напишите 0), потратите 3 очка решения. Ваши текущие очки " +  decisionPoints + "  ");
+            System.out.println("Вы согласны на обмен? если согласитесь (напишите 1), получите 1 очко решения, если откажетесь (напишите 0), потратите 3 очка решения.");
+            System.out.println("Ваши текущие очки " +  decisionPoints + "  ");
             int decision;
             decision = scanner.nextInt();
             if (decision == 0) {
